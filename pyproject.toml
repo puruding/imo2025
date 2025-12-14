@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "reflexion-agent"
+version = "0.1.0"
+description = "AI Reflexion Agent using Claude and Python 3.11"
+authors = ["User <user@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.0"
+requests = "^2.31"
+python-dotenv = "^1.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
